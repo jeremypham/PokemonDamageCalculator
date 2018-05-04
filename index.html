@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>test</h2>
+<p>test</p>
+
+<p id="demo"></p>
+<button onclick="myFunction()">Try it</button>
+
+<script id="pokedex"type="text/javascript" src="./js/data/pokedex.js?"></script>
+
+<script>    
+    function myFunction() {
+        var y = POKEDEX["Charizard"]["name"]
+        var x = POKEDEX["Charizard"]["t1"];
+        document.getElementById("demo").innerHTML = x+" "+ y;
+    }
+    </script>
+    
+</body>
+</html> 
