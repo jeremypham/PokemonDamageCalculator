@@ -16,5 +16,3 @@ class pokemon(object):
 Bulbasaur = pokemon('Bulbasaur','Grass','Poison',45,49,49,65,65,45)
 
 print Bulbasaur.hp
-
-return pokemon
